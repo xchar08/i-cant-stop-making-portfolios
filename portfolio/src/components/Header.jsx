@@ -1,10 +1,14 @@
-// src/components/Header.js
 import React from "react";
 
-function Header({ title }) {
+function Header() {
   return (
-    <div className="w-full h-20 bg-blue-500 mb-2.5 flex items-center justify-center rounded-lg">
-      <h1 className="text-white text-xl">{title}</h1>
+    <div className="w-full flex items-center justify-between text-black">
+      {/* Left side: Title (DJ LISA) */}
+      <div style={{ fontSize: "24px", fontWeight: "bold" }}>
+        Jeremiah <span style={{ fontStyle: "italic" }}>Pitts</span>
+      </div>
+
+
     </div>
   );
 }
